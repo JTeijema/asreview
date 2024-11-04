@@ -169,7 +169,7 @@ class Simulate:
                 len(self.labels) - len(self._results["label"])
             )
 
-            print(f"\nLoss: {round(loss(padded_results), 2)}")
+            print(f"\nLoss: {round(loss(padded_results), 3)}")
 
     def train(self):
         """Train a new model on the labeled data."""
